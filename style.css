@@ -61,3 +61,47 @@
   .client-role {
     color: gray;
   }
+
+  .accordian_img{
+
+    width: 100%;
+    height: 320px;
+    margin-top: 10px;
+
+  }
+
+  .footer {
+    background-color: #111;
+    color: #fff; 
+    padding: 20px 0;
+  }
+  .footer .copyright {
+    margin: 0;
+    font-size: 14px;
+  }
+  .footer .get-app {
+    text-align: right;
+  }
+  .footer .app-links img {
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  .app-links{
+    display: flex;
+    justify-content: right;
+
+  }
+
+@media (max-width: 480px) {
+
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -100px;
+     
+    }
+
+
+    
+}
