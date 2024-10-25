@@ -4,3 +4,38 @@
     box-sizing: border-box;
 }
 
+
+.pricing_card {
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+
+
+.pricing_card:hover {
+ background-color: #1e89e0;
+ color: white;
+}
+.pricing_card.hot .badge {
+  background-color: #ff4040;
+}
+.pricing_card .price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.choose_btn {
+  margin-top: 20px;
+}
+
+.rounded{
+    width: 100%;
+}
+
+.red{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    width: 45px;
+}
