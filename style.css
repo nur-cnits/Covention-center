@@ -19,9 +19,13 @@ body{
 }
 
 .pricing_card:hover {
-  background-color: #1e89e0;
+  background-color: #489ce0;
   color: white;
+  
 }
+
+
+
 .pricing_card.hot .badge {
   background-color: #ff4040;
 }
@@ -75,7 +79,7 @@ body{
 .footer {
   background-color: #111;
   color: #fff;
-  padding: 20px 0;
+  padding: 20px 0px 20px 0px;
 }
 .footer .copyright {
   margin: 0;
@@ -92,8 +96,18 @@ body{
 .app-links {
   display: flex;
   justify-content: right;
+  flex-direction: column;
 }
 
+.app-links img{
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.f_peragraph{
+  display: flex;
+  align-items: center;
+}
 
 
 .precoius_section{
@@ -110,5 +124,9 @@ body{
     flex-direction: column-reverse;
  
   }
-
+  .f_peragraph{
+    display: flex;
+    align-items: center;
+  }
+  
 }
